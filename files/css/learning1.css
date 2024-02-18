@@ -29,6 +29,7 @@ main li {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 1rem;
+  margin-bottom: 60px;
 }
 
 .grid-item {
@@ -53,15 +54,18 @@ main li {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .button1:hover {
   background-color: #750c0e;
 }
 
-.info {
-  margin-top: 30px;}
-
+.info{
+  margin-top: 0;
+  margin-bottom: 50px;
+}
 
 .teachers {
   text-decoration: none;
@@ -76,4 +80,27 @@ main li {
     margin-top: 0px;
     margin-bottom: 30px;
     padding: 0;
+  }
+
+  h1{
+    margin-bottom: 10px !important;
+  }
+
+  .lowmargin{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #c-wrapper{
+    margin-bottom: 60px;
+  }
+
+  #ec, #pc{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size:medium;
+  }
+
+  #buffer{
+    margin-top: 30px;
   }
