@@ -1,3 +1,12 @@
 @import url("common.css");
 @import url("side_menu.css");
 @import url("staff_entry.css");
+
+h3 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+#bolded {
+    font-weight: bold;
+}
