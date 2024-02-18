@@ -1,64 +1,68 @@
-@import url("common.css");
-@import url("side_menu.css");
+@import url('common.css');
+@import url('side_menu.css');
 main ul {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 main li {
-    font-size: 1.15em;
-    margin-bottom: 1em;
+  font-size: 1.15em;
+  margin-bottom: 1em;
 }
 
 .classroom {
-    margin-top: 6em;
-    margin-bottom: 1em;
-    clear: both;
-    overflow: hidden;
+  margin-top: 6em;
+  margin-bottom: 1em;
+  clear: both;
+  overflow: hidden;
 }
 
 .classroom img {
-    float: left;
-    margin-right: 2.5em;
+  float: left;
+  margin-right: 2.5em;
 }
 
 .classroom p {
-    font-size: 1.15em;
+  font-size: 1.15em;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem;
-  }
-  
-  .grid-item {
-    padding: 1rem;
-    border: 1px solid #ccc;
-    text-align: center;
-  }
-  
-  .grid-item h2 {
-    margin-bottom: 0.5rem;
-  }
-  
-  .grid-item p {
-    font-size: 0.875rem;
-    color: #666;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
 
-  .button1 {
-    background-color: #a51417;
-    color: white;
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+.grid-item {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
 
-  .button1:hover{
-    background-color: #750c0e;
-  }
+.grid-item h2 {
+  margin-bottom: 0.5rem;
+}
 
-  .info{
-    margin-top: 30px;
-  }
+.grid-item p {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.button1 {
+  background-color: #a51417;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #750c0e;
+}
+
+.info {
+  margin-top: 30px;
+}
+
+.teachers {
+  text-decoration: none;
+}
