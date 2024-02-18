@@ -60,9 +60,20 @@ main li {
 }
 
 .info {
-  margin-top: 30px;
-}
+  margin-top: 30px;}
+
 
 .teachers {
   text-decoration: none;
 }
+
+
+  h2{
+    margin-bottom: 0px;
+  }
+
+  .subheading{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 0;
+  }
