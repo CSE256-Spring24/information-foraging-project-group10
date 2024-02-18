@@ -43,8 +43,13 @@ main li {
 }
 
 .grid-item p {
-  font-size: 0.875rem;
+  font-size: 0.8rem;
+  font-weight: bold;
   color: #666;
+}
+
+.grid-item a {
+  font-size: 0.8rem;
 }
 
 .button1 {
