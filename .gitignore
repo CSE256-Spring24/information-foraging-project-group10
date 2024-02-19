@@ -4,3 +4,4 @@ aws-credentials.json
 
 #App.js gitignore
 app.js
+scripts/js/app.js
