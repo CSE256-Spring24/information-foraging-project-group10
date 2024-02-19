@@ -31,4 +31,5 @@ console.log('dynamic-dom loaded');
 // Do not touch this line, needed to reinitialize code in the dynamic-dom.ts setupAll function
 window.addEventListener('newPageLoad', () => setupAll());
 
+// console.log("above scroll listen");
 window.addEventListener("scroll", setupSticky);
