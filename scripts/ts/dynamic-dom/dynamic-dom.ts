@@ -17,6 +17,7 @@ export async function setupAll() {
     console.log('reloading');
     Slideshow.setupAll();
     Accordion.setupAll();
+    setupSticky();
     PutStudentPageLoadOperationsInsideThisStudentBody();
     console.log('reloaded');
     // setupSticky();
