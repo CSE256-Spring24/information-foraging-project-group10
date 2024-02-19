@@ -24,3 +24,7 @@ main li {
 .classroom p {
     font-size: 1.15em;
 }
+
+#math_list{
+    margin-top: -20px;
+}
