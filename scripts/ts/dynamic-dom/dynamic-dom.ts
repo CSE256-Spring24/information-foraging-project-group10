@@ -3,6 +3,7 @@ import { Accordion } from './accordion';
 import { doSomething } from './do-something';
 import { HTMLContent, itemsToCache } from './html-imports';
 import { Slideshow } from './slideshow';
+import { setupSticky } from './sticky';
 
 // Put all function calls that need to be made on every page load inside the setupAll function body.
 export function PutStudentPageLoadOperationsInsideThisStudentBody() {
@@ -18,6 +19,7 @@ export async function setupAll() {
     Accordion.setupAll();
     PutStudentPageLoadOperationsInsideThisStudentBody();
     console.log('reloaded');
+    // setupSticky();
 }
 
 itemsToCache.forEach((item: HTMLContent) => {
@@ -28,3 +30,5 @@ itemsToCache.forEach((item: HTMLContent) => {
 console.log('dynamic-dom loaded');
 // Do not touch this line, needed to reinitialize code in the dynamic-dom.ts setupAll function
 window.addEventListener('newPageLoad', () => setupAll());
+
+window.addEventListener("scroll", setupSticky);

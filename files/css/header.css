@@ -12,7 +12,7 @@ header {
 
 #main-menu-container {
     width: 100%;
-    background-color: #3d3d3d;
+    background-color: #a51417;
 }
 
 .container {
@@ -30,7 +30,7 @@ header {
     color: #3d3d3d;
     display: block;
     font-family: "Libre Baskerville", "Times New Roman", serif;
-    width: calc( 100% - 65px);
+    width: calc(100% - 65px);
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     font-size: 3rem;
@@ -49,7 +49,7 @@ header {
 
 .navbar {
     overflow: hidden;
-    background-color: #3d3d3d;
+    background-color: #a51417;
     font-family: Arial;
 }
 
@@ -68,6 +68,7 @@ header {
 .navbar a:hover {
     text-decoration: underline;
 }
+
 .dropbtn a:hover {
     text-decoration: none;
 }
@@ -151,3 +152,15 @@ header a {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.sticky {
+    position: fixed;
+    top: 40px;
+    width: 100%
+}
+
+.sticky+.content {
+    padding-top: 102px;
+}
+
+/* #main-menu-container */

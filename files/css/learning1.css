@@ -26,9 +26,10 @@ main li {
 }
 
 .grid {
+  width:100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 0.5rem;
   margin-bottom: 60px;
 }
 
@@ -108,4 +109,8 @@ main li {
 
   #buffer{
     margin-top: 30px;
+  }
+
+  #auto_gen_id_unq_39{
+    width:95%;
   }
