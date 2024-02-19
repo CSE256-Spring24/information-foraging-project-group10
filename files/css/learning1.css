@@ -1,5 +1,5 @@
 @import url('common.css');
-@import url('side_menu.css');
+/* @import url('side_menu.css'); */
 main ul {
   margin-top: 1em;
 }
@@ -111,6 +111,6 @@ main li {
     margin-top: 30px;
   }
 
-  #auto_gen_id_unq_39{
-    width:95%;
+  #main{
+    width:95% !important;
   }
