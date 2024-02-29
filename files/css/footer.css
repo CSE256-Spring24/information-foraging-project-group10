@@ -13,6 +13,8 @@
   clear: both;
   margin-bottom: 1em;
   text-align: center;
+
+
 }
 
 .site-info {
@@ -21,11 +23,32 @@
 
 .footer-widgets .site-contact {
   width: 100%;
-  margin-right: 0;
-  text-align: center;
+  margin-right: auto;
+  text-align: left;
   border-top: none;
   margin-bottom: 1.8em;
 }
+
+.contact-merch-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#merch {
+  text-align: right;
+  margin-left: auto;
+}
+
+#merch a {
+  display: block;
+  text-align: right;
+  white-space: nowrap;
+}
+.nowrap {
+  white-space: nowrap;
+}
+
 
 .widget-wrapper {
   width: 90%;
