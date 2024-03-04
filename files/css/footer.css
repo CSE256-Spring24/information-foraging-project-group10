@@ -68,3 +68,7 @@ footer a {
 .merch {
   float: right;
 }
+
+*{
+  font-size: small;
+}
