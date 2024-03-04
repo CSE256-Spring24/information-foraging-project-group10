@@ -26,15 +26,43 @@ main li {
 }
 
 #math_list{
-    margin-top: -20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 #thick{
-    padding: 10px;
-    background-color: red;
-    font-size: large;
+    padding: 7px;
+    background-color:#a51417;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
 }
 
 h2{
- margin-top: -20px !important;
+ margin-bottom: 10px !important;
 }
+
+.no_margin{
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+h1{
+    margin-bottom: 0px !important;
+}
+
+.section{
+    margin-bottom: 30px;
+}
+
+.all{
+    margin-top: 20px;
+}
+
+
+  
+  #math_list li {
+    margin-left: 20px;
+  }
+ 
