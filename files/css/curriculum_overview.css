@@ -1,5 +1,7 @@
 @import url("common.css");
 @import url("side_menu.css");
+@import url("accordian.css");
+
 main ul {
     margin-top: 1em;
 }
@@ -25,44 +27,55 @@ main li {
     font-size: 1.15em;
 }
 
-#math_list{
+.math_list {
     padding-left: 20px;
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
-#thick{
+#thick {
     padding: 7px;
-    background-color:#a51417;
+    background-color: #a51417;
     font-size: medium;
     color: rgb(255, 255, 255);
     border-radius: 15px;
 }
 
-h2{
- margin-bottom: 10px !important;
+h2 {
+    margin-bottom: 10px !important;
 }
 
-.no_margin{
-    margin-top:0;
+.no_margin {
+    margin-top: 0;
     margin-bottom: 0;
 }
 
-h1{
+h1 {
     margin-bottom: 0px !important;
 }
 
-.section{
-    margin-bottom: 30px;
+.section {
+    margin-bottom: 50px;
 }
 
-.all{
+.all {
     margin-top: 20px;
 }
 
 
-  
-  #math_list li {
+
+.math_list li {
     margin-left: 20px;
-  }
- 
+}
+
+.accordion {
+    background-color: #c5bdbd !important;
+    width: 300px;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: bold;
+    margin-left: 20px;
+    /* height: 20px; */
+    text-align: center;
+    border-radius: 15px;
+}
