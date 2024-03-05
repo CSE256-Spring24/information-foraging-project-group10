@@ -10,7 +10,7 @@ main ul {
 }
 
 main li {
-    color: rgb(85, 85, 85);
+    color: rgb(0, 0, 0);
     display: list-item;
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 19.2px;
@@ -19,5 +19,24 @@ main li {
     list-style-image: none;
     list-style-position: outside;
     list-style-type: disc;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
+}
+
+
+ul{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px;
+    color:black;
+}
+
+.accept{
+    background-color: rgb(242, 185, 185) !important;
+    margin-bottom: 100px;
+    color: rgb(0, 0, 0);
+}
+
+
+h1, h2, h3{
+    color:rgb(0, 0, 0);
 }
