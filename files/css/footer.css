@@ -38,9 +38,21 @@
 #merch {
   text-align: right;
   margin-left: auto;
+  padding-right: 20px;
 }
 
 #merch a {
+  display: block;
+  text-align: right;
+  white-space: nowrap;
+}
+
+#col2 {
+  text-align: right;
+  margin-left: auto;
+}
+
+#col2 a {
   display: block;
   text-align: right;
   white-space: nowrap;
